@@ -1,5 +1,5 @@
 const age = 17;
-const withParent = true;
+const withParent = false;
 
 if (age > 18 || withParent) {
   console.log("Come");
