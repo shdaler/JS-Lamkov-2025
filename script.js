@@ -1,2 +1,2 @@
-const result = "" || null || 1;
-console.log("result");
+const result = "hi" && false && 10;
+console.log(result);
