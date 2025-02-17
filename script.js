@@ -5,4 +5,17 @@ switch (true) {
     console.log("Wrong age");
     break;
   }
+
+  case age === 18: {
+    console.log("dont believe, show the passport");
+    break;
+  }
+
+  case age > 125: {
+    console.log("are you vampire?");
+    break;
+  }
+  default: {
+    console.log("wrong age");
+  }
 }
