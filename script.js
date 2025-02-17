@@ -1,7 +1,9 @@
-const userAge = Number(prompt("how old are you?"));
+const age = +prompt("how old are you?");
 
-if (userAge === 0) {
-  console.log("wrong age");
-} else {
-  console.log(`your age: ${userAge}`);
+switch (true) {
+  case age < 1:
+    {
+      console.log("Wrong age");
+    }
+    break;
 }
