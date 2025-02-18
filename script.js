@@ -11,7 +11,7 @@ switch (true) {
     break;
   }
 
-  case age > 125: {
+  case age > 126: {
     console.log("are you vampire?");
     break;
   }
