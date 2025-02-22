@@ -1,21 +1,11 @@
-const age = +prompt("how old are you?");
+console.log("loop now starting...");
 
-switch (true) {
-  case age < 1: {
-    console.log("Wrong age");
-    break;
-  }
-
-  case age === 18: {
-    console.log("dont believe, show the passport");
-    break;
+for (let i = 0; i < 10; i++) {
+  if (i % 2 === 0) {
+    continue;
   }
 
-  case age > 126: {
-    console.log("are you vampire?");
-    break;
-  }
-  default: {
-    console.log("wrong message");
-  }
+  console.log(i);
 }
+
+console.log(".... loop is over!");
