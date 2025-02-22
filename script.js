@@ -16,6 +16,6 @@ switch (true) {
     break;
   }
   default: {
-    console.log("wrong age");
+    console.log("wrong message");
   }
 }
