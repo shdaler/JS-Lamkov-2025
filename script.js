@@ -10,8 +10,17 @@
 
 // console.log(".... loop is over!");
 
-function logHello() {
-  console.log("Hello");
+// function logHello() {
+//   console.log("Hello");
+// }
+
+// logHello();
+
+function logMessage(message, count) {
+  for (let i = 0; i < count; i++) {
+    console.log(message);
+  }
 }
 
-logHello();
+logMessage("hello", 3);
+logMessage("bye", 2);
