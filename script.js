@@ -37,10 +37,18 @@
 
 // logMessage();
 
-function sumFiveNumbers(num1 = 100, num2 = 200, num3 = 300, num4 = 400, num5) {
-  const sum = num1 + num2 + num3 + num4 + num5;
+// function sumFiveNumbers(num5, num1 = 100, num2 = 200, num3 = 300, num4 = 400) {
+//   const sum = num1 + num2 + num3 + num4 + num5;
 
-  console.log(`sum is ${sum}`);
+//   console.log(`sum is ${sum}`);
+// }
+
+// sumFiveNumbers(1000);
+
+function sum(a, b) {
+  return a + b;
 }
 
-sumFiveNumbers(1000);
+const result = sum(100, 1);
+
+console.log(result);
