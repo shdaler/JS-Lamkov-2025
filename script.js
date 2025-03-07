@@ -49,6 +49,4 @@ function sum(a, b) {
   return a + b;
 }
 
-const result = sum(100, 1);
-
-console.log(result);
+console.log(sum(111, 111));
