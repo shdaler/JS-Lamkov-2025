@@ -25,14 +25,22 @@
 // logMessage("hello", 4);
 // logMessage("bye", 2);
 
-const globalMessage = "hi";
+// const globalMessage = "hi";
 
-function logMessage(message, count = 5) {
-  const messageFormatted = `(((${message})))`;
+// function logMessage(message = "wow", count = 5) {
+//   const messageFormatted = `(((${message})))`;
 
-  for (let i = 2; i < count; i++) {
-    console.log(messageFormatted);
-  }
+//   for (let i = 0; i < count; i++) {
+//     console.log(messageFormatted);
+//   }
+// }
+
+// logMessage();
+
+function sumFiveNumbers(num1 = 100, num2 = 200, num3 = 300, num4 = 400, num5) {
+  const sum = num1 + num2 + num3 + num4 + num5;
+
+  console.log(`sum is ${sum}`);
 }
 
-logMessage(globalMessage);
+sumFiveNumbers(1000);
