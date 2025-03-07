@@ -16,11 +16,21 @@
 
 // logHello();
 
-function logMessage(message, count) {
+// function logMessage(message, count) {
+//   for (let i = 0; i < count; i++) {
+//     console.log(message);
+//   }
+// }
+
+// logMessage("hello", 4);
+// logMessage("bye", 2);
+
+const globalMessage = "hi";
+
+function logMessage(message, count = 4) {
+  const messageFormatted = `(((${message})))`;
+
   for (let i = 0; i < count; i++) {
-    console.log(message);
+    console.log(messageFormatted);
   }
 }
-
-logMessage("hello", 4);
-logMessage("bye", 2);
