@@ -27,10 +27,10 @@
 
 const globalMessage = "hi";
 
-function logMessage(message, count = 4) {
+function logMessage(message, count = 5) {
   const messageFormatted = `(((${message})))`;
 
-  for (let i = 0; i < count; i++) {
+  for (let i = 2; i < count; i++) {
     console.log(messageFormatted);
   }
 }
