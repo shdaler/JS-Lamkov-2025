@@ -34,3 +34,5 @@ function logMessage(message, count = 4) {
     console.log(messageFormatted);
   }
 }
+
+logMessage(globalMessage);
