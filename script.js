@@ -22,5 +22,5 @@ function logMessage(message, count) {
   }
 }
 
-logMessage("hello", 3);
+logMessage("hello", 4);
 logMessage("bye", 2);
