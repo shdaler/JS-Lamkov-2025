@@ -56,4 +56,4 @@ function getSecretMessage(name) {
   return `I dont know who are you! Are you ${name}?`;
 }
 
-console.log(getSecretMessage(""));
+console.log(getSecretMessage("Ivan"));
