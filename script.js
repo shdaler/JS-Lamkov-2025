@@ -52,7 +52,8 @@
 // console.log(sum(333, 111));
 
 function getSecretMessage(name) {
+  if (!name) return;
   return `I dont know who are you! Are you ${name}?`;
 }
 
-console.log(getSecretMessage());
+console.log(getSecretMessage(""));
