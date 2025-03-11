@@ -45,8 +45,14 @@
 
 // sumFiveNumbers(1000);
 
-function sum(a, b) {
-  return a + b;
+// function sum(a, b) {
+//   return a + b;
+// }
+
+// console.log(sum(333, 111));
+
+function getSecretMessage(name) {
+  return `I dont know who are you! Are you ${name}?`;
 }
 
-console.log(sum(333, 111));
+console.log(getSecretMessage());
