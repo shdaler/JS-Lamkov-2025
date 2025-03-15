@@ -51,9 +51,19 @@
 
 // console.log(sum(333, 111));
 
-function getSecretMessage(name) {
-  if (!name) return;
-  return `I dont know who are you! Are you ${name}?`;
-}
+// function getSecretMessage(name) {
+//   if (!name) return;
+//   return `I dont know who are you! Are you ${name}?`;
+// }
 
-console.log(getSecretMessage("Ivan"));
+// console.log(getSecretMessage("Ivan"));
+
+const validate = (hasAccess) => {
+  return hasAccess
+    ? () => console.log("Доступ разрешен :)")
+    : () => console.log("Доступ запрещен :(");
+};
+
+const logMessage = validate(false);
+
+logMessage();
