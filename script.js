@@ -58,12 +58,23 @@
 
 // console.log(getSecretMessage("Ivan"));
 
-const validate = (hasAccess) => {
-  return hasAccess
-    ? () => console.log("Доступ разрешен :)")
-    : () => console.log("Доступ запрещен :(");
+// const validate = (hasAccess) => {
+//   return hasAccess
+//     ? () => console.log("Доступ разрешен :)")
+//     : () => console.log("Доступ запрещен :(");
+// };
+
+// const logMessage = validate(false);
+
+// logMessage();
+
+// const alertWarn = () => {
+//   alert("Some text");
+// };
+
+const getPi = () => {
+  return 3.14;
 };
 
-const logMessage = validate(false);
-
-logMessage();
+// alertWarn();
+console.log(getPi());
