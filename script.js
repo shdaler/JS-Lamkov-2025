@@ -79,11 +79,12 @@
 // alertWarn();
 // console.log(getPi());
 
-const user = {};
+const name = "Alex";
+const age = 24;
 
-user.name = "Alex";
-user["is developer"] = true;
+const user = {
+  name,
+  age,
+};
 
-delete user.name;
-delete user["is developer"];
 console.log(user);
