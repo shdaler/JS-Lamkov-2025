@@ -84,4 +84,6 @@ const user = {};
 user.name = "Alex";
 user["is developer"] = true;
 
+delete user.name;
+delete user["is developer"];
 console.log(user);
