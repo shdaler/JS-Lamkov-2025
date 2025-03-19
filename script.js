@@ -79,12 +79,6 @@
 // alertWarn();
 // console.log(getPi());
 
-const name = "Alex";
-const age = 24;
+const obj = { ["temp${2*2}"]: true };
 
-const user = {
-  name,
-  age,
-};
-
-console.log(user);
+console.log(obj);
