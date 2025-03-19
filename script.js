@@ -72,9 +72,16 @@
 //   alert("Some text");
 // };
 
-const getPi = () => {
-  return 3.14;
-};
+// const getPi = () => {
+//   return 3.14;
+// };
 
 // alertWarn();
-console.log(getPi());
+// console.log(getPi());
+
+const user = {};
+
+user.name = "Alex";
+user["is developer"] = true;
+
+console.log(user);
