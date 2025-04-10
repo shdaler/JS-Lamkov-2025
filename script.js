@@ -25,9 +25,20 @@
 // console.log(obj2); // { name: 'Alice', age: 25 }
 // console.log(obj1 === obj2); // false (это разные объекты)
 
-const obj1 = { user: { name: "Alice" } };
-const obj2 = { user: { age: 25 } };
+// const obj1 = { user: { name: "Alice" } };
+// const obj2 = { user: { age: 25 } };
 
-const merged = { ...obj1, ...obj2 };
-console.log(merged);
+// const merged = { ...obj1, ...obj2 };
+// console.log(merged);
 // { user: { age: 25 } } — name потерялся!
+
+const user = {
+  name: "Alice",
+  age: 25,
+  city: "New York",
+};
+
+const { name, ...rest } = user;
+
+console.log(name); // 'Alice'
+console.log(rest); // { age: 25, city: 'New York' }
