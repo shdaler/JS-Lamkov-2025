@@ -19,60 +19,8 @@
 
 // console.log(nums);
 
-function deepEqual(obj1, obj2) {
-  // Если оба объекта идентичны по ссылке
-  if (obj1 === obj2) return true;
+// const obj1 = { name: 'Alice', age: 25 };
+const obj2 = { ...obj1 }; // Копируем свойства из obj1 в новый объект obj2
 
-  // Если один из объектов не является объектом или массивом
-  if (
-    typeof obj1 !== "object" ||
-    obj1 === null ||
-    typeof obj2 !== "object" ||
-    obj2 === null
-  ) {
-    return false;
-  }
-
-  // Получаем ключи обоих объектов
-  const keys1 = Object.keys(obj1);
-  const keys2 = Object.keys(obj2);
-
-  // Если количество свойств объектов различается
-  if (keys1.length !== keys2.length) {
-    return false;
-  }
-
-  // Рекурсивно сравниваем все свойства
-  for (let key of keys1) {
-    // Проверяем, существуют ли ключи в обоих объектах
-    if (!keys2.includes(key)) {
-      return false;
-    }
-
-    // Рекурсивное сравнение значений
-    if (!deepEqual(obj1[key], obj2[key])) {
-      return false;
-    }
-  }
-
-  return true;
-}
-
-const obj1 = {
-  name: "Alice",
-  age: 25,
-  address: { city: "New York", zip: "10001" },
-};
-const obj2 = {
-  name: "Alice",
-  age: 25,
-  address: { city: "New York", zip: "10001" },
-};
-const obj3 = {
-  name: "Bob",
-  age: 30,
-  address: { city: "Los Angeles", zip: "90001" },
-};
-
-console.log(deepEqual(obj1, obj2)); // true
-console.log(deepEqual(obj1, obj3)); // false
+console.log(obj2); // { name: 'Alice', age: 25 }
+console.log(obj1 === obj2); // false (это разные объекты)
