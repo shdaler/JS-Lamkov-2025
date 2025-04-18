@@ -34,7 +34,7 @@
 
 const user = {
   name: "Alice",
-  age: 25,
+  age: 26,
   city: "New York",
 };
 
