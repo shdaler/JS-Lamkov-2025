@@ -32,13 +32,15 @@
 // console.log(merged);
 // { user: { age: 25 } } — name потерялся!
 
-const user = {
-  name: "Alice",
-  age: 26,
-  city: "New York",
-};
+// const user = {
+//   name: "Alice",
+//   age: 26,
+//   city: "New York",
+// };
 
-const { name, ...rest } = user;
+// const { name, ...rest } = user;
 
-console.log(name); // 'Alice'
-console.log(rest); // { age: 25, city: 'New York' }
+// console.log(name); // 'Alice'
+// console.log(rest); // { age: 25, city: 'New York' }
+
+console.log("this глобальный:", this);
