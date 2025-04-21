@@ -53,18 +53,24 @@
 
 // user.logThis();
 
-const user1 = { name: "Alex" };
-const user2 = { name: "John" };
+// const user1 = { name: "Alex" };
+// const user2 = { name: "John" };
 
-function logInfo() {
-  console.log("this", this);
-  console.log("this.name", this.name);
-}
+// function logInfo() {
+//   console.log("this", this);
+//   console.log("this.name", this.name);
+// }
 
-logInfo();
+// logInfo();
 
-user1.logName = logInfo;
-user2.logName = logInfo;
+// user1.logName = logInfo;
+// user2.logName = logInfo;
 
-user1.logName();
-user2.logName();
+// user1.logName();
+// user2.logName();
+
+const calculator = {
+  read() {},
+  sum() {},
+  mul() {},
+};
