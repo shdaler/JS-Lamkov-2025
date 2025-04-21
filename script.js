@@ -81,3 +81,8 @@ const calculator = {
     return this.a * this.b;
   },
 };
+
+
+calculator.read()
+console.log("Summa:" calculator.sum())
+ calculator.mul()
