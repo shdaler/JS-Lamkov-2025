@@ -83,5 +83,7 @@ const calculator = {
 };
 
 calculator.read();
+
+console.log("calculator:", calculator);
 console.log("Summa:", calculator.sum());
 console.log("Proizvedenie:", calculator.mul());
