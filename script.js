@@ -70,7 +70,10 @@
 // user2.logName();
 
 const calculator = {
-  read() {},
+  read() {
+    this.a = prompt("Введите первре число");
+    this.a = prompt("Введите второе число");
+  },
   sum() {},
   mul() {},
 };
