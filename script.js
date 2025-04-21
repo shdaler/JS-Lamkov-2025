@@ -69,21 +69,34 @@
 // user1.logName();
 // user2.logName();
 
-const calculator = {
-  read() {
-    this.a = Number(prompt("Введите первое число"));
-    this.b = Number(prompt("Введите второе число"));
+// const calculator = {
+//   read() {
+//     this.a = Number(prompt("Введите первое число"));
+//     this.b = Number(prompt("Введите второе число"));
+//   },
+//   sum() {
+//     return this.a + this.b;
+//   },
+//   mul() {
+//     return this.a * this.b;
+//   },
+// };
+
+// calculator.read();
+
+// console.log("calculator:", calculator);
+// console.log("Summa:", calculator.sum());
+// console.log("Proizvedenie:", calculator.mul());
+
+let ladder = {
+  step: 0,
+  up() {
+    this.step++;
   },
-  sum() {
-    return this.a + this.b;
+  down() {
+    this.step--;
   },
-  mul() {
-    return this.a * this.b;
+  showStep: function () {
+    alert(this.step);
   },
 };
-
-calculator.read();
-
-console.log("calculator:", calculator);
-console.log("Summa:", calculator.sum());
-console.log("Proizvedenie:", calculator.mul());
