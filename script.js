@@ -43,12 +43,15 @@
 // console.log(name); // 'Alice'
 // console.log(rest); // { age: 25, city: 'New York' }
 
-const user = {
-  name: "Alex",
-  age: 28,
-  logThis: function () {
-    console.log("this в теле метода user:", this);
-  },
-};
+// const user = {
+//   name: "Alex",
+//   age: 28,
+//   logThis: function () {
+//     console.log("this в теле метода user:", this);
+//   },
+// };
 
-user.logThis();
+// user.logThis();
+
+const user1 = { name: "Alex" };
+const user2 = { name: "John" };
