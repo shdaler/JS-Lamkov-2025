@@ -71,9 +71,13 @@
 
 const calculator = {
   read() {
-    this.a = +prompt("Введите первое число");
-    this.b = +prompt("Введите второе число");
+    this.a = Number(prompt("Введите первое число"));
+    this.b = Number(prompt("Введите второе число"));
   },
-  sum() {},
-  mul() {},
+  sum() {
+    return this.a + this.b;
+  },
+  mul() {
+    return this.a * this.b;
+  },
 };
