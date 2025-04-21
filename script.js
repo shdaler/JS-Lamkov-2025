@@ -55,3 +55,8 @@
 
 const user1 = { name: "Alex" };
 const user2 = { name: "John" };
+
+function logInfo() {
+  console.log("this", this);
+  console.log("this.name", this.name);
+}
