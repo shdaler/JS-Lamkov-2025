@@ -82,7 +82,6 @@ const calculator = {
   },
 };
 
-
-calculator.read()
-console.log("Summa:" calculator.sum())
- calculator.mul()
+calculator.read();
+console.log("Summa:", calculator.sum());
+console.log("Proizvedenie:", calculator.mul());
