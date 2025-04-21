@@ -43,4 +43,12 @@
 // console.log(name); // 'Alice'
 // console.log(rest); // { age: 25, city: 'New York' }
 
-console.log("this глобальный:", this);
+const user = {
+  name: "Alex",
+  age: 28,
+  logThis: function () {
+    console.log("this в теле метода user:", this);
+  },
+};
+
+user.logThis();
