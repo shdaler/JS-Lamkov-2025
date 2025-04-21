@@ -65,3 +65,6 @@ logInfo();
 
 user1.logName = logInfo;
 user2.logName = logInfo;
+
+user1.logName();
+user2.logName();
