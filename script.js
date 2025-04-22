@@ -98,6 +98,6 @@ let ladder = {
   },
   showStep() {
     //pokazivaet tekushuyu stupen'
-    alert(this.step);
+    console.log("Tekushaya stupen'ka", this.step);
   },
 };
