@@ -92,23 +92,17 @@ let ladder = {
   step: 0,
   up() {
     this.step++;
-    return this
+    return this;
   },
   down() {
     this.step--;
-    return this
+    return this;
   },
   showStep() {
     //pokazivaet tekushuyu stupen'
     console.log("Tekushaya stupen'ka", this.step);
-    return this
+    return this;
   },
 };
 
-ladder
-.up();
-.up();
-.down();
-.showStep();
-.down();
-.showStep();
+ladder.up().up().down().showStep().down().showStep();
