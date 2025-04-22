@@ -116,3 +116,7 @@ const counter = {
     console.log(this.value);
   },
 };
+
+counter.increment();
+counter.increment();
+counter.show();
