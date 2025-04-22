@@ -117,6 +117,10 @@ const counter = {
   },
 };
 
-counter.increment();
-counter.increment();
+// counter.increment();
+// counter.increment();
+// counter.show();
+
+const incrementFn = counter.increment;
+incrementFn();
 counter.show();
