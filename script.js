@@ -121,6 +121,6 @@ const counter = {
 // counter.increment();
 // counter.show();
 
-const incrementFn = counter.increment;
+const incrementFn = counter.increment.bind(counter);
 incrementFn();
 counter.show();
