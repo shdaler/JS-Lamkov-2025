@@ -96,7 +96,7 @@ let ladder = {
   down() {
     this.step--;
   },
-  showStep: function () {
+  showStep() {
     //pokazivaet tekushuyu stupen'
     alert(this.step);
   },
