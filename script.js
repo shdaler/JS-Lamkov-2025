@@ -123,5 +123,5 @@ const counter = {
 
 const incrementFn = counter.increment.bind(counter);
 incrementFn();
-incrementFn();
+
 counter.show();
