@@ -155,7 +155,9 @@
 
 // console.log("Sluchaynoe chislo:", Math.random());
 
-console.log(Math.abs(-1));
-console.log(Math.abs(-2));
-console.log(Math.abs(-100));
-console.log(Math.abs(-1000));
+// console.log(Math.abs(-1));
+// console.log(Math.abs(-2));
+// console.log(Math.abs(-100));
+// console.log(Math.abs(-1000));
+
+console.log(Math.pow(2, 10));
