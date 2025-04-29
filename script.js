@@ -107,20 +107,20 @@
 
 // ladder.up().up().down().showStep().down().showStep();
 
-const counter = {
-  value: 0,
-  increment: function () {
-    this.value++;
-  },
-  show: function () {
-    console.log(this.value);
-  },
-};
+// const counter = {
+//   value: 0,
+//   increment: function () {
+//     this.value++;
+//   },
+//   show: function () {
+//     console.log(this.value);
+//   },
+// };
 
 // counter.increment();
 // counter.increment();
 // counter.show();
 
-const incrementFn = counter.increment.bind(counter);
-incrementFn();
-counter.show();
+// const incrementFn = counter.increment.bind(counter);
+// incrementFn();
+// counter.show();
