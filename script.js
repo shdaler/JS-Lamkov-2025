@@ -125,12 +125,17 @@
 // incrementFn();
 // counter.show();
 
-const price = 99.555;
+// const price = 99.555;
 
-console.log("Okruglenie do 0 znakov posle zapyatoy:", price.toFixed());
+// console.log("Okruglenie do 0 znakov posle zapyatoy:", price.toFixed());
 
-console.log("okruglenie do 1 znaka posle zapyatoy:", price.toFixed(1));
+// console.log("okruglenie do 1 znaka posle zapyatoy:", price.toFixed(1));
 
-console.log("okruglenie do 2 znakov posle zapyatoy:", price.toFixed(2));
+// console.log("okruglenie do 2 znakov posle zapyatoy:", price.toFixed(2));
 
-console.log((100).toFixed(2));
+// console.log((5.001).toFixed(2));
+
+const num = 100.055;
+
+console.log(num.toPrecision(4));
+console.log(num.toFixed(4));
