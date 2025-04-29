@@ -140,11 +140,15 @@
 // console.log(num.toPrecision(4));
 // console.log(num.toFixed(4));
 
-const num = 100;
-const numAsString = num.toString();
+// const num = 100;
+// const numAsString = num.toString();
 
-console.log("Chislo:", num);
-console.log("Chislo v vide stroki:", numAsString);
+// console.log("Chislo:", num);
+// console.log("Chislo v vide stroki:", numAsString);
 
-console.log(typeof num);
-console.log(typeof numAsString);
+// console.log(typeof num);
+// console.log(typeof numAsString);
+
+const num = 10;
+
+console.log(" Chislo ${num} v dvoichnoy sisteme schisleniya:", num.toString(2));
