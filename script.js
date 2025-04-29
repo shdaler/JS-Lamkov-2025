@@ -168,6 +168,7 @@
 
 // console.log(Math.trunc(3.49));
 
-const numberAsString = "100px";
+const numberAsString = "100.5px";
 
 console.log(parseInt(numberAsString));
+console.log(parseFloat(numberAsString));
