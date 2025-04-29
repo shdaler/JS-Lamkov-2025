@@ -168,7 +168,7 @@
 
 // console.log(Math.trunc(3.49));
 
-const numberAsString = "100";
+const numberAsString = "100px";
 
 console.log(Number(numberAsString));
 console.log(+numberAsString);
