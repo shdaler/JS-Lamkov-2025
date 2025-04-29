@@ -133,4 +133,4 @@ console.log("okruglenie do 1 znaka posle zapyatoy:", price.toFixed(1));
 
 console.log("okruglenie do 2 znakov posle zapyatoy:", price.toFixed(2));
 
-console.log(3.001).toFixed(2);
+console.log((100).toFixed(2));
