@@ -135,7 +135,16 @@
 
 // console.log((5.001).toFixed(2));
 
-const num = 100.055;
+// const num = 100.055;
 
-console.log(num.toPrecision(4));
-console.log(num.toFixed(4));
+// console.log(num.toPrecision(4));
+// console.log(num.toFixed(4));
+
+const num = 100;
+const numAsString = num.toString();
+
+console.log("Chislo:", num);
+console.log("Chislo v vide stroki:", numAsString);
+
+console.log(typeof num);
+console.log(typeof numAsString);
