@@ -166,4 +166,9 @@
 
 // console.log(Math.min(...nums));
 
-console.log(Math.trunc(3.49));
+// console.log(Math.trunc(3.49));
+
+const numberAsString = "100";
+
+console.log(Number(numberAsString));
+console.log(+numberAsString);
