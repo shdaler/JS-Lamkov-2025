@@ -153,4 +153,9 @@
 
 // console.log(" Chislo ${num} v dvoichnoy sisteme schisleniya:", num.toString(2));
 
-console.log("Sluchaynoe chislo:", Math.random());
+// console.log("Sluchaynoe chislo:", Math.random());
+
+console.log(Math.abs(-1));
+console.log(Math.abs(-2));
+console.log(Math.abs(-100));
+console.log(Math.abs(-1000));
