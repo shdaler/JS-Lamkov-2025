@@ -124,3 +124,11 @@
 // const incrementFn = counter.increment.bind(counter);
 // incrementFn();
 // counter.show();
+
+const price = 99.555;
+
+console.log("Okruglenie do 0 znakov posle zapyatoy:", price.toFixed());
+
+console.log("okruglenie do 1 znaka posle zapyatoy:", price.toFixed(1));
+
+console.log("okruglenie do 2 znakov posle zapyatoy:", price.toFixed(2));
