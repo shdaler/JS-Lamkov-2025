@@ -170,5 +170,4 @@
 
 const numberAsString = "100px";
 
-console.log(Number(numberAsString));
-console.log(+numberAsString);
+console.log(parseInt(numberAsString));
