@@ -160,4 +160,10 @@
 // console.log(Math.abs(-100));
 // console.log(Math.abs(-1000));
 
-console.log(Math.pow(2, 10));
+// console.log(Math.pow(2, 10));
+
+// const nums = [1, 2, 3, -5, 10, 111, 100];
+
+// console.log(Math.min(...nums));
+
+console.log(Math.trunc(3.49));
