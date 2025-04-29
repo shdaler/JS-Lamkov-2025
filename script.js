@@ -149,6 +149,8 @@
 // console.log(typeof num);
 // console.log(typeof numAsString);
 
-const num = 10;
+// const num = 10;
 
-console.log(" Chislo ${num} v dvoichnoy sisteme schisleniya:", num.toString(2));
+// console.log(" Chislo ${num} v dvoichnoy sisteme schisleniya:", num.toString(2));
+
+console.log("Sluchaynoe chislo:", Math.random());
