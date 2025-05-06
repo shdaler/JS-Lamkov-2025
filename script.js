@@ -184,11 +184,15 @@
 // console.log(text.toLowerCase());
 // console.log(text.toUpperCase());
 
-const message = "     Hi!    ";
+// const message = "     Hi!    ";
 
-console.log(`String "${message}" has length ${message.length} symbols`);
+// console.log(`String "${message}" has length ${message.length} symbols`);
 
-const messageFormatted = message.trim();
+// const messageFormatted = message.trim();
 
-console.log(`
-  Message "${messageFormatted}" has length ${messageFormatted.length} symbols`);
+// console.log(`
+//   Message "${messageFormatted}" has length ${messageFormatted.length} symbols`);
+
+const message = "Lets try to find -this- in the sentence";
+
+console.log(message.indexOf("-ddddd-") !== -1);
