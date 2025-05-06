@@ -193,6 +193,10 @@
 // console.log(`
 //   Message "${messageFormatted}" has length ${messageFormatted.length} symbols`);
 
-const message = "Lets try to find -this- in the sentence";
+const message = "Hello";
 
-console.log(message.indexOf("-ddddd-") !== -1);
+console.log(message.indexOf("el", 5));
+console.log(message.includes("el", 5));
+console.log(message.startsWith("He", 4));
+console.log(message.endsWith("lo", 5));
+console.log(message.endsWith("lo", message.length));
