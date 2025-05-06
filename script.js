@@ -219,14 +219,26 @@
 
 // console.log(str.split(""));
 
-let message = " Hello!   ";
+// let message = " Hello!   ";
 
-console.log(`
-  Message before:
-  "${message}"`);
+// console.log(`
+//   Message before:
+//   "${message}"`);
 
-message = message.trim().toUpperCase().slice(0, 4);
+// message = message.trim().toUpperCase().slice(0, 4);
 
-console.log(`
-  Message after:
-  "${message}"`);
+// console.log(`
+//   Message after:
+//   "${message}"`);
+
+const value = prompt("Write your name:");
+
+const clearValue = value.trim().toLowerCase();
+
+if (clearValue.length === 0) {
+  alert("Error! The name is not to be empty.");
+}
+
+if (clearValue.includes("admin")) {
+  alert("Error! You not to choose this name");
+}
