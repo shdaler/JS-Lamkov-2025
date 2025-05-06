@@ -174,3 +174,5 @@
 // console.log(parseFloat(numberAsString));
 
 const name = "Alex";
+
+console.log(name[name.length - 1]);
