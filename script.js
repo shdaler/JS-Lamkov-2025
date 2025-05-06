@@ -211,6 +211,22 @@
 
 // console.log(message.replace(/Java/gi, "VS"));
 
-const str = "+1 234 567 890";
+// const str = "+1 234 567 890";
 
-console.log(str.replace(/\d/g, "#"));
+// console.log(str.replace(/\d/g, "#"));
+
+// const str = "Hello, world";
+
+// console.log(str.split(""));
+
+let message = " Hello!   ";
+
+console.log(`
+  Message before:
+  "${message}"`);
+
+message = message.trim().toUpperCase().slice(0, 4);
+
+console.log(`
+  Message after:
+  "${message}"`);
