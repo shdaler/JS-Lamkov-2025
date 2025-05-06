@@ -201,8 +201,16 @@
 // console.log(message.endsWith("lo", 5));
 // console.log(message.endsWith("lo", message.length));
 
-const str = "JavaScript";
+// const str = "JavaScript";
 
-console.log(str.substring(0, 4));
-console.log(str.slice(0, 4));
-console.log(str.slice(-6));
+// console.log(str.substring(0, 4));
+// console.log(str.slice(0, 4));
+// console.log(str.slice(-6));
+
+// const message = "I learn Java, and JAva is cool";
+
+// console.log(message.replace(/Java/gi, "VS"));
+
+const str = "+1 234 567 890";
+
+console.log(str.replace(/\d/g, "#"));
