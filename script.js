@@ -175,4 +175,6 @@
 
 const name = "Alex";
 
-console.log(name[name.length - 1]);
+console.log(name.at(0));
+console.log(name.at(1));
+console.log(name.at(-1));
