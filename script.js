@@ -193,10 +193,16 @@
 // console.log(`
 //   Message "${messageFormatted}" has length ${messageFormatted.length} symbols`);
 
-const message = "Hello";
+// const message = "Hello";
 
-console.log(message.indexOf("el", 5));
-console.log(message.includes("el", 5));
-console.log(message.startsWith("He", 4));
-console.log(message.endsWith("lo", 5));
-console.log(message.endsWith("lo", message.length));
+// console.log(message.indexOf("el", 5));
+// console.log(message.includes("el", 5));
+// console.log(message.startsWith("He", 4));
+// console.log(message.endsWith("lo", 5));
+// console.log(message.endsWith("lo", message.length));
+
+const str = "JavaScript";
+
+console.log(str.substring(0, 4));
+console.log(str.slice(0, 4));
+console.log(str.slice(-6));
