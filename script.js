@@ -173,8 +173,22 @@
 // console.log(parseInt(numberAsString));
 // console.log(parseFloat(numberAsString));
 
-const name = "Alex";
+// const name = "Alex";
 
-console.log(name.at(0));
-console.log(name.at(1));
-console.log(name.at(-1));
+// console.log(name.at(0));
+// console.log(name.at(1));
+// console.log(name.at(-1));
+
+// const text = "SiMpLe";
+
+// console.log(text.toLowerCase());
+// console.log(text.toUpperCase());
+
+const message = "     Hi!    ";
+
+console.log(`String "${message}" has length ${message.length} symbols`);
+
+const messageFormatted = message.trim();
+
+console.log(`
+  Message "${messageFormatted}" has length ${messageFormatted.length} symbols`);
