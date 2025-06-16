@@ -238,3 +238,17 @@ const matrix = [
 ];
 
 console.log(matrix[1][2]);
+
+const arr = ["hi", 100, true];
+
+console.log("arr before:", arr);
+
+arr[0] = "bye";
+arr[1] = "222";
+arr[2] = "false";
+arr[3] = "1000";
+arr[4] = "ok";
+
+console.log("arr after:", arr);
+
+console.log(arr.length);
