@@ -257,6 +257,6 @@ const letters = ["a", "b", "c"];
 
 console.log("letters before:", letters);
 
-letters.push("d");
+letters.pop();
 
 console.log("letters after:", letters);
