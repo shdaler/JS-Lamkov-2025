@@ -232,3 +232,6 @@
 //   "${message}"`);
 
 const arr = ["Hi", 100, true];
+
+console.log("arr:", arr);
+console.log("typeof arr:", typeof arr);
