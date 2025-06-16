@@ -262,7 +262,9 @@
 // console.log("letters after:", letters);
 
 const arr1 = ["a", "b", "c"];
-const arr2 = arr1.slice(-1);
+const arr2 = ["e", "f"];
+const arr3 = ["g", "h"];
 
-console.debug("arr:", arr1);
-console.debug("arr2:", arr2);
+const totalArr = arr1.concat(arr2, arr3);
+
+console.log(totalArr);
