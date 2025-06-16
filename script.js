@@ -240,4 +240,4 @@ const arr = [
   [true, true, true],
 ];
 
-console.log(arr[3]["name"]);
+console.log(arr[5][0]);
