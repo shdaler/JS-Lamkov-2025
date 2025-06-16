@@ -231,13 +231,10 @@
 //   Message after:
 //   "${message}"`);
 
-const arr = [
-  "Hi",
-  100,
-  true,
-  { name: "Alex" },
-  () => console.log("Haha"),
-  [true, true, true],
+const matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
 ];
 
-console.log(arr[5][0]);
+console.log(matrix[1][2]);
