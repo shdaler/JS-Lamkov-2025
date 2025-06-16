@@ -231,24 +231,32 @@
 //   Message after:
 //   "${message}"`);
 
-const matrix = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
-];
+// const matrix = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
 
-console.log(matrix[1][2]);
+// console.log(matrix[1][2]);
 
-const arr = ["hi", 100, true];
+// const arr = ["hi", 100, true];
 
-console.log("arr before:", arr);
+// console.log("arr before:", arr);
 
-arr[0] = "bye";
-arr[1] = "222";
-arr[2] = "false";
-arr[3] = "1000";
-arr[4] = "ok";
+// arr[0] = "bye";
+// arr[1] = "222";
+// arr[2] = "false";
+// arr[3] = "1000";
+// arr[1000] = "ok";
 
-console.log("arr after:", arr);
+// console.log("arr after:", arr);
 
-console.log(arr.length);
+// console.log(arr.length);
+
+const letters = ["a", "b", "c"];
+
+console.log("letters before:", letters);
+
+letters.push("d");
+
+console.log("letters after:", letters);
