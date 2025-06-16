@@ -261,6 +261,8 @@
 
 // console.log("letters after:", letters);
 
-const message = "one, two, three, four, five";
+const arr1 = ["a", "b", "c"];
+const arr2 = arr1.slice(-1);
 
-console.log(message.split(", ").join(", "));
+console.debug("arr:", arr1);
+console.debug("arr2:", arr2);
