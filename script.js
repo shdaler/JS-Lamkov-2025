@@ -262,9 +262,23 @@
 // console.log("letters after:", letters);
 
 const arr1 = ["a", "b", "c"];
-const arr2 = ["e", "f"];
-const arr3 = ["g", "h"];
+const arr2 = ["a", "b", "c"];
 
-const totalArr = arr1.concat(arr2, arr3);
+const areArrayEqual = (array1, array2) => {
+  if (array1.length !== array2.length) {
+    return false;
+  }
 
-console.log(totalArr);
+  for (let i = 0; i < array1.length; i++) {
+    const value1 = array1[i];
+    const value2 = array2[i];
+
+    if (value1 !== value2) {
+      return false;
+    }
+  }
+
+  return true;
+};
+
+console.log(areArrayEqual(arr1, arr2));
