@@ -231,7 +231,13 @@
 //   Message after:
 //   "${message}"`);
 
-const arr = ["Hi", 100, true];
+const arr = [
+  "Hi",
+  100,
+  true,
+  { name: "Alex" },
+  () => console.log("Haha"),
+  [true, true, true],
+];
 
-console.log("arr:", arr);
-console.log("typeof arr:", typeof arr);
+console.log(arr[3]["name"]);
