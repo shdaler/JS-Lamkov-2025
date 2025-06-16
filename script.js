@@ -253,10 +253,14 @@
 
 // console.log(arr.length);
 
-const letters = ["a", "b", "c"];
+// const letters = ["a", "b", "c"];
 
-console.log("letters before:", letters);
+// console.log("letters before:", letters);
 
-letters.pop();
+// letters.pop();
 
-console.log("letters after:", letters);
+// console.log("letters after:", letters);
+
+const message = "one, two, three, four, five";
+
+console.log(message.split(", ").join(", "));
