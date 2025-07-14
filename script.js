@@ -296,6 +296,19 @@
 //   console.log(letter);
 // });
 
-const prices = [10, 20, 30, 40, 30, 60];
+const users = [
+  {
+    name: "Alex",
+    age: 28,
+  },
+  {
+    name: "El",
+    age: 29,
+  },
+  {
+    name: "John",
+    age: 30,
+  },
+];
 
-console.log(prices.indexOf(30, 3));
+console.log(users.findIndex((user) => user.name === "John"));
