@@ -296,19 +296,23 @@
 //   console.log(letter);
 // });
 
-const users = [
-  {
-    name: "Alex",
-    age: 28,
-  },
-  {
-    name: "El",
-    age: 29,
-  },
-  {
-    name: "John",
-    age: 30,
-  },
-];
+// const users = [
+//   {
+//     name: "Alex",
+//     age: 28,
+//   },
+//   {
+//     name: "El",
+//     age: 29,
+//   },
+//   {
+//     name: "John",
+//     age: 30,
+//   },
+// ];
 
-console.log(users.findIndex((user) => user.name === "John"));
+// console.log(users.findIndex((user) => user.name === "John"));
+
+const prices = [10, 20, 30, 40, 50, 60];
+
+console.log(prices.includes(500));
