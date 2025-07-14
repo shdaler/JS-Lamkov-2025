@@ -296,6 +296,6 @@
 //   console.log(letter);
 // });
 
-const prices = [10, 20, 30, 40, 50, 60];
+const prices = [10, 20, 30, 40, 30, 60];
 
-console.log(prices.indexOf(30));
+console.log(prices.indexOf(30, 3));
