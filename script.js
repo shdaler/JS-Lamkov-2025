@@ -320,7 +320,7 @@ const users = [
 ];
 
 const filteredUsers = users.filter(({ city, age }) => {
-  return city === "Astana" || age < 45;
+  return city === "Moscow" || age < 45;
 });
 
 console.log(filteredUsers);
