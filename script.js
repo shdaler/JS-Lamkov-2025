@@ -295,3 +295,7 @@
 // letters.forEach((letter) => {
 //   console.log(letter);
 // });
+
+const prices = [10, 20, 30, 40, 50, 60];
+
+console.log(prices.indexOf(30));
