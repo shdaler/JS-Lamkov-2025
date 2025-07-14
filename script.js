@@ -290,8 +290,8 @@
 // console.log("name:", name);
 // console.log("age:", age);
 
-const letters = ["A", "B", "C", "D", "E"];
+// const letters = ["A", "B", "C", "D", "E"];
 
-letters.forEach((letter) => {
-  console.log(letter);
-});
+// letters.forEach((letter) => {
+//   console.log(letter);
+// });
