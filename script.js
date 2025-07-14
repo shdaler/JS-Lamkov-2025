@@ -319,8 +319,8 @@ const users = [
   },
 ];
 
-const filteredUsers = users.filter(({ city, age }) => {
-  return city === "Moscow" || age < 45;
+const usersFormatted = users.map((user) => {
+  return `${user.name}, ${user.age} year, live in the ${user.city}`;
 });
 
-console.log(filteredUsers);
+console.log(usersFormatted);
