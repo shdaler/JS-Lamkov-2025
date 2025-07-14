@@ -283,9 +283,15 @@
 
 // console.log(areArrayEqual(arr1, arr2));
 
-const data = ["Alex", 28];
+// const data = ["Alex", 28];
 
-const [age, name] = data;
+// const [age, name] = data;
 
-console.log("name:", name);
-console.log("age:", age);
+// console.log("name:", name);
+// console.log("age:", age);
+
+const letters = ["A", "B", "C", "D", "E"];
+
+letters.forEach((letter) => {
+  console.log(letter);
+});
