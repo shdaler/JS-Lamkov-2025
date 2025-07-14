@@ -319,8 +319,8 @@ const users = [
   },
 ];
 
-const usersFormatted = users.map((user) => {
-  return `${user.name}, ${user.age} year, live in the ${user.city}`;
-});
+const ageSum = users.reduce((sum, { age }) => {
+  return sum + age;
+}, 0);
 
-console.log(usersFormatted);
+console.log("Middle age of users:", ageSum / users.length);
