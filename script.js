@@ -300,19 +300,27 @@ const users = [
   {
     name: "Alex",
     age: 28,
+    city: "Moscow",
   },
   {
     name: "El",
     age: 29,
+    city: "Tashkent",
   },
   {
     name: "John",
-    age: 30,
+    age: 66,
+    city: "Astana",
+  },
+  {
+    name: "John",
+    age: 50,
+    city: "Moscow",
   },
 ];
 
-console.log(users.filter((user) => user.name === "John"));
+const filteredUsers = users.filter(({ city, age }) => {
+  return city === "Astana" || age < 45;
+});
 
-// const prices = [10, 20, 30, 40, 50, 60];
-
-// console.log(prices.includes(50));
+console.log(filteredUsers);
