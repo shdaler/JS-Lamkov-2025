@@ -296,31 +296,37 @@
 //   console.log(letter);
 // });
 
-const users = [
-  {
-    name: "Alex",
-    age: 28,
-    city: "Moscow",
-  },
-  {
-    name: "El",
-    age: 29,
-    city: "Tashkent",
-  },
-  {
-    name: "John",
-    age: 66,
-    city: "Astana",
-  },
-  {
-    name: "John",
-    age: 50,
-    city: "Moscow",
-  },
-];
+// const users = [
+//   {
+//     name: "Alex",
+//     age: 28,
+//     city: "Moscow",
+//   },
+//   {
+//     name: "El",
+//     age: 29,
+//     city: "Tashkent",
+//   },
+//   {
+//     name: "John",
+//     age: 66,
+//     city: "Astana",
+//   },
+//   {
+//     name: "John",
+//     age: 50,
+//     city: "Moscow",
+//   },
+// ];
 
-const ageSum = users.reduce((sum, { age }) => {
-  return sum + age;
-}, 0);
+// const ageSum = users.reduce((sum, { age }) => {
+//   return sum + age;
+// }, 0);
 
-console.log("Middle age of users:", ageSum / users.length);
+// console.log("Middle age of users:", ageSum / users.length);
+
+const names = ["John", "ALex", "Anne", "Ben"];
+
+const sortedNames = [...names].sort();
+
+console.log("Sorted names:", sortedNames);
