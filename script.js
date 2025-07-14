@@ -311,7 +311,7 @@ const users = [
   },
 ];
 
-console.log(users.every((user) => user.age >= 18));
+console.log(users.filter((user) => user.name === "John"));
 
 // const prices = [10, 20, 30, 40, 50, 60];
 
