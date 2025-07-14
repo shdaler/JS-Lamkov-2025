@@ -261,24 +261,24 @@
 
 // console.log("letters after:", letters);
 
-const arr1 = ["a", "b", "c"];
-const arr2 = ["a", "b", "c"];
+// const arr1 = ["a", "b", "c"];
+// const arr2 = ["a", "b", "c"];
 
-const areArrayEqual = (array1, array2) => {
-  if (array1.length !== array2.length) {
-    return false;
-  }
+// const areArrayEqual = (array1, array2) => {
+//   if (array1.length !== array2.length) {
+//     return false;
+//   }
 
-  for (let i = 0; i < array1.length; i++) {
-    const value1 = array1[i];
-    const value2 = array2[i];
+//   for (let i = 0; i < array1.length; i++) {
+//     const value1 = array1[i];
+//     const value2 = array2[i];
 
-    if (value1 !== value2) {
-      return false;
-    }
-  }
+//     if (value1 !== value2) {
+//       return false;
+//     }
+//   }
 
-  return true;
-};
+//   return true;
+// };
 
-console.log(areArrayEqual(arr1, arr2));
+// console.log(areArrayEqual(arr1, arr2));
