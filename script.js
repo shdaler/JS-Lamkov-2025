@@ -325,7 +325,7 @@
 
 // console.log("Middle age of users:", ageSum / users.length);
 
-const numbers = [2, 1, 44];
+const numbers = [2, 1, 54];
 
 const sortedNumbers = [...numbers].sort((a, b) => a - b);
 
